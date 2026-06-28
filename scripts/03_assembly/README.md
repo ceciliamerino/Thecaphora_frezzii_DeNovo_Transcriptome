@@ -1,15 +1,21 @@
 # Transcriptome assembly
 
-Transcriptome assemblies were generated using Galaxy.
-
-## Assembly software
+Transcriptome assemblies were generated in Galaxy using:
 
 - Trinity
 - rnaSPAdes
 
-The resulting transcriptome assemblies were downloaded from Galaxy and subsequently merged and curated locally using EvidentialGene.
+The resulting FASTA files were downloaded and merged locally using EvidentialGene.
 
-## Local scripts
+## EvidentialGene
 
-- `merge_evidentialgene.sh`
-  Merges Trinity and rnaSPAdes assemblies and removes redundant transcripts using EvidentialGene.
+The representative transcript set was generated with:
+
+```bash
+tr2aacds.pl \
+  -cdnaseq=Tfrezii_assembly_concat_final.fasta \
+  -species=basidiomycota \
+  -ablastab=blastp_table
+```
+
+This step removed redundant transcripts and selected representative sequences based on coding potential and homology evidence.
