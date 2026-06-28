@@ -3,12 +3,12 @@
 Assembly quality was assessed using:
 
 - rnaQUAST v2.3.0
-- BUSCO v5.7.1
+- BUSCO
 - BBMap stats.sh
 
 ## rnaQUAST
 
-rnaQUAST was executed with the following command:
+rnaQUAST was executed locally with:
 
 ```bash
 rnaQUAST.py \
@@ -26,4 +26,6 @@ rnaQUAST.py \
   -o outputdir
 ```
 
-BUSCO completeness and assembly statistics obtained with rnaQUAST were used to compare the different transcriptome assemblies.
+## BUSCO
+
+BUSCO analyses were also performed independently using the Galaxy Australia server to evaluate transcriptome completeness (including SuperTranscripts assemblies).
