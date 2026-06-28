@@ -1,4 +1,4 @@
-# Reference genomes
+# Reference genome assemblies
 
 The BBSplit reference database was built using the following reference genome assemblies:
 
