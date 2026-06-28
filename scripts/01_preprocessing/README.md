@@ -1,1 +1,1 @@
-This directory contains the scripts used for RNA-seq preprocessing, including read deduplication, quality trimming, and paired-end read repair.
+This directory contains the scripts used during RNA-seq preprocessing. Clumpify and fastp were executed directly using their corresponding command-line tools, whereas custom scripts are provided for the remaining preprocessing steps.
