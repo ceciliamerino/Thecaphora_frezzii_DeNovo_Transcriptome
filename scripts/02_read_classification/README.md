@@ -14,8 +14,20 @@ Reads assigned to the *Arachis hypogaea* containers and reads remaining unmapped
 
 ## Scripts
 
+- `bbsplit_index.sh`  
+  Builds the BBSplit reference database from the reference genomes listed in ../../resources/reference_genomes.md.
+
 - `bbsplit_classification.sh`  
   Classifies paired-end RNA-seq reads into host-derived reads, *T. frezzii* reads, and unmapped reads using BBSplit.
 
+- `bbmap_index_fungus.sh` 
+  Builds the BBMap index for the Thecaphora frezii reference genome.
+
 - `remapping_bbmap.sh`  
   Remaps reads from the *Arachis hypogaea* containers and unmapped reads against the *T. frezzii* reference genome using BBMap.
+
+
+
+
+• remapping_bbmap.sh
+  Remaps reads from the Arachis hypogaea containers and unmapped reads against the T. frezii reference genome using BBMap.
