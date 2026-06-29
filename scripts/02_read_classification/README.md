@@ -24,5 +24,5 @@ Reads assigned to the Arachis hypogaea containers and reads remaining unmapped a
   Builds the BBMap index for the Thecaphora frezii reference genome.
 
 - `remapping_bbmap.sh`  
-  Remaps reads from the *Arachis hypogaea* containers and unmapped reads against the *T. frezzii* reference genome using BBMap.
+  Remaps reads from the Arachis hypogaea containers and reads remaining unmapped after BBSplit to the T. frezii reference genome using BBMap.
 
