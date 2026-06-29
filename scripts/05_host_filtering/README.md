@@ -1,7 +1,28 @@
-# Step 1. Reference-based read classification (BBSplit)
+# Host filtering
 
-RNA-seq reads were classified against four *Arachis hypogaea* reference genomes and the *Thecaphora frezzii* reference genome using BBSplit. Reads assigned to the peanut reference genomes were discarded, whereas reads assigned to the fungal reference genome and reads remaining unclassified (unmapped) were retained for downstream analyses.
+This directory contains the scripts used to remove transcript sequences showing similarity to the peanut host genome.
 
-# Step 2. Reference-guided fungal read recovery (BBMap)
+## Overview
 
-Reads assigned to the peanut containers and reads remaining unmapped after BBSplit were independently remapped against the *Thecaphora frezzii* reference genome using BBMap to recover reads matching the available fungal reference genome.
+The de novo assembled *Thecaphora frezii* transcriptome was independently aligned against four *Arachis hypogaea* reference genome assemblies using BBMap.
+
+For each alignment:
+
+1. SAM records with FLAG = 4 (transcripts that did not map to the peanut genome) were retained.
+2. Transcript IDs were extracted from the filtered SAM file.
+3. The corresponding transcript sequences were recovered from the original FASTA file.
+
+This procedure was repeated for each peanut reference genome to progressively remove host-like transcript sequences.
+
+## Scripts
+
+- `filter_flag4.py`  
+  Retains only SAM records with FLAG = 4 (unmapped transcripts).
+
+- `extract_names.py`  
+  Extracts transcript IDs from the filtered SAM file.
+
+- `filter_fasta_by_ids.py`  
+  Recovers transcript sequences whose IDs are listed in the query file.
+
+The four peanut reference genome assemblies are listed in ../../resources/reference_genomes.md.
