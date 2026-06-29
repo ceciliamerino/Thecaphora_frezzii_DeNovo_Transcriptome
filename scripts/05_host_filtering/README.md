@@ -4,7 +4,7 @@ This directory contains the scripts used to remove transcript sequences showing 
 
 ## Overview
 
-The de novo assembled *Thecaphora frezii* transcriptome was independently aligned against four *Arachis hypogaea* reference genome assemblies using BBMap.
+The de novo assembled *Thecaphora frezii* transcriptome was independently aligned against four Arachis hypogaea reference genome assemblies using BBMap. The reference genome assemblies are listed in ../../resources/reference_genomes.md.
 
 For each alignment:
 
@@ -12,7 +12,7 @@ For each alignment:
 2. Transcript IDs were extracted from the filtered SAM file.
 3. The corresponding transcript sequences were recovered from the original FASTA file.
 
-This procedure was repeated for each peanut reference genome to progressively remove host-like transcript sequences.
+This procedure was repeated independently for each peanut reference genome assembly.
 
 ## Scripts
 
@@ -23,6 +23,6 @@ This procedure was repeated for each peanut reference genome to progressively re
   Extracts transcript IDs from the filtered SAM file.
 
 - `filter_fasta_by_ids.py`  
-  Recovers transcript sequences whose IDs are listed in the query file.
+  Recovers transcript sequences whose IDs are listed in the input ID file.
 
-The four peanut reference genome assemblies are listed in ../../resources/reference_genomes.md.
+
