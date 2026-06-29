@@ -10,7 +10,7 @@ The BBSplit reference database was built using the genome assemblies listed in `
 
 ## Step 2. Reference-guided fungal read recovery (BBMap)
 
-Reads assigned to the *Arachis hypogaea* containers and reads remaining unmapped after BBSplit were remapped against the available *Thecaphora frezzii* reference genome using BBMap to recover reads matching the fungal genome.
+Reads assigned to the Arachis hypogaea containers and reads remaining unmapped after BBSplit were remapped against the available Thecaphora frezii reference genome using BBMap. Reads mapping to the fungal reference genome were retained for downstream analyses.
 
 ## Scripts
 
@@ -26,8 +26,3 @@ Reads assigned to the *Arachis hypogaea* containers and reads remaining unmapped
 - `remapping_bbmap.sh`  
   Remaps reads from the *Arachis hypogaea* containers and unmapped reads against the *T. frezzii* reference genome using BBMap.
 
-
-
-
-• remapping_bbmap.sh
-  Remaps reads from the Arachis hypogaea containers and unmapped reads against the T. frezii reference genome using BBMap.
