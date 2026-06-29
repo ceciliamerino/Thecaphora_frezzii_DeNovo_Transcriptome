@@ -17,7 +17,7 @@ This procedure was repeated independently for each peanut reference genome assem
 ## Scripts
 
 - `filter_flag4.py`  
-  Retains only SAM records with FLAG = 4 (unmapped transcripts).
+  Retains only SAM records with FLAG = 4, corresponding to transcripts that did not map to the peanut reference genome.
 
 - `extract_names.py`  
   Extracts transcript IDs from the filtered SAM file.
