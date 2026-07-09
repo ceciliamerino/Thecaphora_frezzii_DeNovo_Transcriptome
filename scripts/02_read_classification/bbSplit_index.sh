@@ -19,5 +19,5 @@ bbsplit.sh \
   ref_shitouqi="$REF_SHITOUQI" \
   ref_tifrunner="$REF_TIFRUNNER" \
   ref_bailey="$REF_BAILEY" \
-  ref_tfrezii="$REF_TFREZII" \
+  ref_tfrezii="$REF_TFREZZII" \
   -Xmx48g
