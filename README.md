@@ -29,7 +29,11 @@ results/
 
 ## Software
 
-(To be completed)
+## Software
+
+## Software
+
+The workflow was implemented using BBTools, fastp, Trinity, rnaSPAdes, EvidentialGene, BUSCO, rnaQUAST, TransDecoder, DIAMOND, Python and standard Unix command-line utilities including wget, gunzip, unzip and pigz.
 
 ## Citation
 
