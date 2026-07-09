@@ -40,7 +40,7 @@ bbmap.sh -Xmx40g \
     outm="${output_file_r1}.mapped.sam" \
     outu="${output_file_r1}.unmapped.sam"
     maxindel=200 \
-    minid=0.9 \
+    minid=0.9
 
 # Convertir SAM a FASTQ de pares
 samtools fastq "${output_file_r1}.mapped.sam" -1 "${output_file_r1}_mapped_1.fq" -2 "${output_file_r1}_mapped_2.fq" -0 /dev/null -s /dev/null -n
