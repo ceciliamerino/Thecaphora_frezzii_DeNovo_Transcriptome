@@ -1,6 +1,6 @@
 # ORF prediction
 
-This directory contains the scripts used to predict, curate and validate protein-coding regions from the final host-filtered *Thecaphora frezii* transcriptome.
+This directory contains scripts used for ORF prediction and related post-processing from the final host-filtered *Thecaphora frezii* transcriptome.
 
 ## Overview
 
@@ -45,3 +45,5 @@ The workflow produced the following principal output files:
 ## Notes
 
 Large database files and analysis outputs are not included in this repository. This includes `nr`, `nr.dmnd`, taxonomy files, DIAMOND output tables and TransDecoder output files.
+
+Custom post-processing steps for selecting non-redundant CDS isoforms and validating CDSs longer than 5,000 nt are described in the manuscript. The corresponding large intermediate files and database outputs are not included in this repository.
