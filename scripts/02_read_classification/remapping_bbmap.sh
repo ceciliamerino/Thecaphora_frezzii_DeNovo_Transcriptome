@@ -30,7 +30,7 @@ echo "Procesando archivo: $input_file_r1"
 base_name=$(basename "$input_file_r1" .fna)
 
 # Construir el nombre del archivo de salida
-output_file_r1="${output_dir}${base_name}_Tfrezii"
+output_file_r1="${output_dir}${base_name}_Tfrezzii"
 
 # Ejecución de BBmap
 bbmap.sh -Xmx40g \
