@@ -4,7 +4,7 @@ This directory contains the scripts used to remove transcript sequences showing 
 
 ## Overview
 
-The de novo assembled *Thecaphora frezii* transcriptome was independently aligned against four *Arachis hypogaea* reference genome assemblies using BBMap. The reference genome assemblies are listed in ../../resources/reference_genomes.md.
+The de novo assembled *Thecaphora frezzii* transcriptome was independently aligned against four *Arachis hypogaea* reference genome assemblies using BBMap. The reference genome assemblies are listed in ../../resources/reference_genomes.md.
 
 For each alignment:
 
