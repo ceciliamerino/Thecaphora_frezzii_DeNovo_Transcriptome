@@ -13,11 +13,11 @@ rnaQUAST was executed locally with:
 ```bash
 rnaQUAST.py \
   --threads 12 \
-  --transcripts Trinity_Tfrezii_final_C_Ga.fasta \
-                 rnaSPAdes_Tfrezii_final_C.fasta \
+  --transcripts Trinity_Tfrezzii_final_C_Ga.fasta \
+                 rnaSPAdes_Tfrezzii_final_C.fasta \
                  transcriptoma_filtrado_TF_segunda_iteracion \
-  --left_reads concat_Tfrezii_final_C_1.fq.gz \
-  --right_reads concat_Tfrezii_final_C_2.fq.gz \
+  --left_reads concat_Tfrezzii_final_C_1.fq.gz \
+  --right_reads concat_Tfrezzii_final_C_2.fq.gz \
   --min_alignment 50 \
   --busco basidiomycota_odb10 \
   --lower_threshold 50 \
