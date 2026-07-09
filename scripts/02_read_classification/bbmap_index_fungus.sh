@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Builds a BBMap index for the Thecaphora frezii reference genome.
+# Builds a BBMap index for the Thecaphora frezzii reference genome.
 #
 # Usage:
 #   bash bbmap_index_fungus.sh
