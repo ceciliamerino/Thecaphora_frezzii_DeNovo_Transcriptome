@@ -34,8 +34,8 @@ output_file_r1="${output_dir}${base_name}_Tfrezii"
 
 # Ejecución de BBmap
 bbmap.sh -Xmx40g \
-    in1=concat_B_F_S_T_U_Tfrezii_1.fq.gz \
-    in2=concat_B_F_S_T_U_Tfrezii_2.fq.gz \
+    in1=concat_B_F_S_T_U_Tfrezzii_1.fq.gz \
+    in2=concat_B_F_S_T_U_Tfrezzii_2.fq.gz \
     ref="$input_file_r1" \
     outm="${output_file_r1}.mapped.sam" \
     outu="${output_file_r1}.unmapped.sam" \
