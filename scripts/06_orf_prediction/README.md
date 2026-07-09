@@ -1,6 +1,6 @@
 # ORF prediction
 
-This directory contains scripts used for ORF prediction and related post-processing from the final host-filtered *Thecaphora frezii* transcriptome.
+This directory contains scripts used for ORF prediction and related post-processing from the final host-filtered *Thecaphora frezzii* transcriptome.
 
 ## Overview
 
