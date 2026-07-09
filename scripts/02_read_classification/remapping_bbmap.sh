@@ -38,7 +38,7 @@ bbmap.sh -Xmx40g \
     in2=concat_B_F_S_T_U_Tfrezii_2.fq.gz \
     ref="$input_file_r1" \
     outm="${output_file_r1}.mapped.sam" \
-    outu="${output_file_r1}.unmapped.sam"
+    outu="${output_file_r1}.unmapped.sam" \
     maxindel=200 \
     minid=0.9
 
