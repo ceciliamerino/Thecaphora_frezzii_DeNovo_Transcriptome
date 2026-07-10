@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Remaps transcript reads against the Thecaphora frezzii reference genome
+# Remaps RNA-seq reads against the Thecaphora frezzii reference genome
 # using BBMap to separate mapped and unmapped reads.
 #
 # Reference genome:
