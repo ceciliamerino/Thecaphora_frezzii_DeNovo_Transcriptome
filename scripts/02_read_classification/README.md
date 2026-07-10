@@ -9,7 +9,7 @@ RNA-seq reads were classified against four *Arachis hypogaea* reference genomes 
 The BBSplit reference database was built using the genome assemblies listed in `../../resources/reference_genomes.md`.
 
 ## Step 2. Reference-guided fungal read recovery (BBMap)
-Reads assigned to the Arachis hypogaea output containers and reads remaining unmapped after BBSplit were remapped against the available Thecaphora frezii reference genome using BBMap. Reads mapping to the fungal reference genome were retained for downstream analyses.
+Reads assigned to the *Arachis hypogaea* output containers and reads remaining unmapped after BBSplit were remapped against the available *Thecaphora frezzii* reference genome using BBMap. Reads mapping to the fungal reference genome were retained for downstream analyses.
 
 ## Scripts
 
