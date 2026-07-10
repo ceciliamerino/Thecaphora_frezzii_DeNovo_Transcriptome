@@ -4,7 +4,7 @@ This directory contains scripts used to remove transcript sequences showing simi
 
 ## Overview
 
-The curated de novo *Thecaphora frezii* transcriptome was independently aligned against four *Arachis hypogaea* reference genome assemblies using BBMap.
+The curated de novo *Thecaphora frezzii* transcriptome was independently aligned against four *Arachis hypogaea* reference genome assemblies using BBMap.
 
 The peanut reference genomes used in this step are listed in:
 
