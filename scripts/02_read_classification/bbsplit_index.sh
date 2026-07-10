@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Builds the BBSplit reference database used for host-pathogen read classification.
 #
