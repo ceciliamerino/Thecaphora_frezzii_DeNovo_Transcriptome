@@ -20,8 +20,8 @@ Reads assigned to the Arachis hypogaea output containers and reads remaining unm
   Classifies paired-end RNA-seq reads into host-derived reads, *T. frezzii* reads, and unmapped reads using BBSplit.
 
 - `bbmap_index_fungus.sh` 
-  Builds the BBMap index for the Thecaphora frezii reference genome.
+  Builds the BBMap index for the *Thecaphora frezzii* reference genome.
 
 - `remapping_bbmap.sh`  
-  Remaps reads from the Arachis hypogaea containers and reads remaining unmapped after BBSplit to the T. frezii reference genome using BBMap.
+  Remaps reads from the Arachis hypogaea containers and reads remaining unmapped after BBSplit to the *T. frezzii* reference genome using BBMap.
 
