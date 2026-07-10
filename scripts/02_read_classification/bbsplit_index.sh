@@ -11,7 +11,7 @@ REF_FUHUASHENG="/path/to/Fuhuasheng_reference.fna"
 REF_SHITOUQI="/path/to/Shitouqi_reference.fna"
 REF_TIFRUNNER="/path/to/Tifrunner_reference.fna"
 REF_BAILEY="/path/to/BaileyII_reference.fna"
-REF_TFREZII="/path/to/Tfrezzii_reference.fna"
+REF_TFREZZII="/path/to/Tfrezzii_reference.fna"
 
 bbsplit.sh \
   build=1 \
@@ -19,5 +19,5 @@ bbsplit.sh \
   ref_shitouqi="$REF_SHITOUQI" \
   ref_tifrunner="$REF_TIFRUNNER" \
   ref_bailey="$REF_BAILEY" \
-  ref_tfrezii="$REF_TFREZZII" \
+  ref_tfrezzii="$REF_TFREZZII" \
   -Xmx48g
