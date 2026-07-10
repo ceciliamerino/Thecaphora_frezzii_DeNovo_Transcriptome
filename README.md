@@ -35,11 +35,10 @@ The workflow was implemented using BBTools, fastp, Trinity, rnaSPAdes, Evidentia
 
 Manuscript under review.
 
-## License
-
-To be defined.
+## Contact
 
 ## Contact
 
 María Cecilia Merino  
-CONICET, Argentina
+INIMEC-CONICET–UNC, Córdoba, Argentina  
+Email: cmerino@immf.uncor.edu
