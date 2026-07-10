@@ -16,7 +16,7 @@ input_dir="/path/to/reference_genome"
 output_dir="/path/to/output_directory"
 
 # Archivo específico en el directorio de entrada
-input_file_r1="${input_dir}GCA_026284005.1_ASM2628400v1_genomic.fna"
+input_file_r1="${input_dir%/}/GCA_026284005.1_ASM2628400v1_genomic.fna"
 
 # Verificar la existencia del archivo de entrada
 if [ ! -f "$input_file_r1" ]; then
@@ -30,7 +30,7 @@ echo "Procesando archivo: $input_file_r1"
 base_name=$(basename "$input_file_r1" .fna)
 
 # Construir el nombre del archivo de salida
-output_file_r1="${output_dir}${base_name}_Tfrezzii"
+output_file_r1="${output_dir%/}/${base_name}_Tfrezzii"
 
 # Ejecución de BBmap
 bbmap.sh -Xmx40g \
