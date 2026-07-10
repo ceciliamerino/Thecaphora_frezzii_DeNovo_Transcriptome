@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Classifies paired-end RNA-seq reads using BBSplit against host and pathogen reference genomes.
 # The BBSplit reference database is described in:
