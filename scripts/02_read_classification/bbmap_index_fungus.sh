@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Builds a BBMap index for the Thecaphora frezzii reference genome.
 #
