@@ -13,7 +13,7 @@ The representative transcript set was generated with:
 
 ```bash
 tr2aacds.pl \
-  -cdnaseq=Tfrezii_assembly_concat_final.fasta \
+  -cdnaseq=Tfrezzii_assembly_concat_final.fasta \
   -species=basidiomycota \
   -ablastab=blastp_table
 ```
