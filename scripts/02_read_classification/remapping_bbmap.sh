@@ -15,6 +15,8 @@
 input_dir="/path/to/reference_genome"
 output_dir="/path/to/output_directory"
 
+mkdir -p "$output_dir"
+
 # Archivo específico en el directorio de entrada
 input_file_r1="${input_dir%/}/GCA_026284005.1_ASM2628400v1_genomic.fna"
 
