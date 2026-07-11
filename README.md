@@ -1,6 +1,6 @@
 # De Novo Transcriptome Assembly Pipeline for *Thecaphora frezzii*
 
-This repository contains the bioinformatic pipeline used to reconstruct and curate a high-quality de novo transcriptome of the peanut smut fungus *Thecaphora frezzii* from RNA-seq data
+This repository contains the bioinformatics pipeline used to reconstruct and curate a high-quality de novo transcriptome of the peanut smut fungus *Thecaphora frezzii* from RNA-seq data.
 
 The pipeline includes RNA-seq preprocessing, host-pathogen read classification, fungal read recovery, de novo transcriptome assembly, transcriptome quality assessment, transcriptome curation, host transcript filtering, ORF prediction, and protein homology searches.
 
