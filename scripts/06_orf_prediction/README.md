@@ -42,15 +42,6 @@ The workflow produced the following principal output files:
 - `count_unique_homolog_ids.py`  
   Extracts and counts unique homolog identifiers encoded in the annotation field of the TransDecoder BED output.
 
-- `build_diamond_nr_database.sh`
-  Downloads the NCBI nr protein database and taxonomy files, and builds the DIAMOND database used for protein homology searches.
-
-- `transdecoder_orf_prediction.sh`
-  Runs the ORF prediction workflow: `TransDecoder.LongOrfs`, DIAMOND BLASTp against nr, and `TransDecoder.Predict`.
-
-- `count_unique_homolog_ids.py`
-  Extracts and counts unique homolog identifiers encoded in the annotation field of the TransDecoder BED output.
-
 - `01_check_long_CDS_qspan.sh`
   Selects CDSs ≥5,000 nt, performs DIAMOND BLASTp searches against Swiss-Prot, calculates query coverage, selects the best hit per query, and classifies sequences as PASS, CHECK, or NO_HIT.
 
