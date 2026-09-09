@@ -18,14 +18,14 @@ subread-align \
   -o <output_file> \
   -T 10
 
+The procedure was repeated independently for the Tifrunner, Shitouqi, Fuhuasheng, and BaileyII reference genomes.
 
-The curated de novo *Thecaphora frezzii* transcriptome was independently aligned against four *Arachis hypogaea* reference genome assemblies using BBMap.
+The curated de novo Thecaphora frezzii transcriptome was independently aligned against four Arachis hypogaea reference genome assemblies using BBMap.
 
 The peanut reference genomes used in this step are listed in:
-
-```text
 ../../resources/reference_genomes.md
-```
+
+The curated de novo Thecaphora frezzii transcriptome was independently aligned against four Arachis hypogaea reference genome assemblies using BBMap.
 
 For each peanut genome alignment, transcripts that did not map to the corresponding peanut reference were retained. In the SAM output, these unmapped records were identified by `FLAG = 4`.
 
