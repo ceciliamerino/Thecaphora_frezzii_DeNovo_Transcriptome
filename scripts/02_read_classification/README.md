@@ -26,7 +26,7 @@ cat <initial_Tfrezii_R2.fastq.gz> <recovered_mapped_R2.fastq.gz> > concat_Tfrezi
 - `bbsplit_classification.sh`  
   Classifies paired-end RNA-seq reads into host-derived reads, *T. frezzii* reads, and unmapped reads using BBSplit.
 
-- `bbmap_index_fungus.sh` 
+- `bbmap_index_fungus.sh`
   Builds the BBMap index for the *Thecaphora frezzii* reference genome.
 
 - `remapping_bbmap.sh`  
