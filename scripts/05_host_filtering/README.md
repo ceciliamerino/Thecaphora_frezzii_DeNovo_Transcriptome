@@ -26,8 +26,6 @@ The curated de novo Thecaphora frezzii transcriptome was independently aligned a
 The peanut reference genomes used in this step are listed in:
 ../../resources/reference_genomes.md
 
-The curated de novo Thecaphora frezzii transcriptome was independently aligned against four Arachis hypogaea reference genome assemblies using BBMap.
-
 For each peanut genome alignment, transcripts that did not map to the corresponding peanut reference were retained. In the SAM output, these unmapped records were identified by `FLAG = 4`.
 
 For each alignment:
