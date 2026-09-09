@@ -5,7 +5,10 @@ Transcriptome assemblies were generated in Galaxy using:
 - Trinity
 - rnaSPAdes
 
-The resulting FASTA files were downloaded and merged locally using EvidentialGene.
+The resulting FASTA files were downloaded and concatenated locally using the Bash cat command. The concatenated transcriptome was subsequently curated using EvidentialGene.
+
+```bash
+cat Trinity_Tfrezii_final_C_Ga.fasta rnaSPAdes_Tfrezii_final_C.fasta > Tfrezii_assembly_concat_final.fasta
 
 ## EvidentialGene
 
