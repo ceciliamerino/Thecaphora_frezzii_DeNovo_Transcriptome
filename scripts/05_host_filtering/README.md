@@ -21,7 +21,7 @@ subread-align \
 
 The procedure was repeated independently for the Tifrunner, Shitouqi, Fuhuasheng, and BaileyII reference genomes.
 
-The curated de novo Thecaphora frezzii transcriptome was independently aligned against four Arachis hypogaea reference genome assemblies using BBMap.
+The curated *de novo* *Thecaphora frezzii* transcriptome was independently aligned against four *Arachis hypogaea* reference genome assemblies using BBMap.
 
 The peanut reference genomes used in this step are listed in:
 ../../resources/reference_genomes.md
