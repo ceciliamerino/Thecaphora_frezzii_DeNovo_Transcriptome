@@ -48,11 +48,11 @@ The workflow produced the following principal output files:
 - `02_make_S2_qspan_v6.sh`
   Generates the supplementary TSV table containing CDS and protein lengths, alignment metrics, query coverage, and PASS/CHECK/NO_HIT classifications.
 
-  - `Filtrado_archivo_cds.py`
+- `Filtrado_archivo_cds.py`
   Removes exact duplicate CDS sequences, retaining a single representative for each unique CDS sequence.
 
 ## Notes
 
 Large database files and analysis outputs are not included in this repository. This includes `nr`, `nr.dmnd`, taxonomy files, DIAMOND output tables and TransDecoder output files.
 
-Custom post-processing for selecting non-redundant CDS isoforms is described in the manuscript. Scripts used for the validation of CDSs ≥5,000 nt are included in this directory. Large intermediate files and database outputs are not included in this repository.
+Scripts used for CDS deduplication and for the validation of CDSs ≥5,000 nt are included in this directory. Large intermediate files and database outputs are not included in this repository.
