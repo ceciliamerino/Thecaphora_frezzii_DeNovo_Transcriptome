@@ -8,7 +8,7 @@ Transcriptome assemblies were generated in Galaxy using:
 The resulting FASTA files were downloaded and concatenated locally using the Bash cat command. The concatenated transcriptome was subsequently curated using EvidentialGene.
 
 ```bash
-cat Trinity_Tfrezii_final_C_Ga.fasta rnaSPAdes_Tfrezii_final_C.fasta > Tfrezzii_assembly_concat_final.fasta
+cat Trinity_Tfrezzii_final_C_Ga.fasta rnaSPAdes_Tfrezzii_final_C.fasta > Tfrezzii_assembly_concat_final.fasta
 ```
 
 ## EvidentialGene
