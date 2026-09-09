@@ -22,7 +22,7 @@ For each alignment:
 
 This procedure was repeated independently for each peanut reference genome.
 
-After this initial host-filtering step, additional refinement was performed to reduce residual host-derived sequences by comparing the filtered transcript sets across peanut reference genomes. This refinement step is described in the manuscript. Large intermediate files and custom comparison outputs are not included in this repository.
+Among the four independently filtered transcriptomes, the Fuhuasheng-filtered transcriptome retained the fewest sequences and was therefore selected as the starting dataset for iterative refinement. The same FLAG = 4-based filtering workflow described above was then reapplied against the remaining three peanut reference genomes (Tifrunner, Shitouqi, and BaileyII). At each filtering step, only transcripts with no detectable alignment to the corresponding peanut reference genome (SAM FLAG = 4) were retained. The procedure was repeated until no additional alignments to the remaining peanut reference genomes were detected.
 
 ## Scripts
 
