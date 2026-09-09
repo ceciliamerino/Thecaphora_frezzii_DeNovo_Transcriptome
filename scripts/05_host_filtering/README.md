@@ -25,7 +25,19 @@ This procedure was repeated independently for each peanut reference genome.
 Among the four independently filtered transcriptomes, the Fuhuasheng-filtered transcriptome retained the fewest sequences and was therefore selected as the starting dataset for iterative refinement. The same FLAG = 4-based filtering workflow described above was then reapplied against the remaining three peanut reference genomes (Tifrunner, Shitouqi, and BaileyII). At each filtering step, only transcripts with no detectable alignment to the corresponding peanut reference genome (SAM FLAG = 4) were retained. The procedure was repeated until no additional alignments to the remaining peanut reference genomes were detected.
 
 ## Scripts
+### Preliminary host-sequence screening with Subread
 
+The EvidentialGene-curated *T. frezzii* transcriptome was independently aligned against each of the four peanut reference genomes using Subread v2.0.6 to assess potential residual plant-derived sequences.
+
+The following command structure was used:
+
+```bash
+subread-align \
+  -i <peanut_genome_index> \
+  -r Tfrezii_assembly_concat_final.okay.mrna \
+  -t 1 \
+  -o <output_file> \
+  -T 10
 - `filter_flag4.py`  
   Retains only SAM records with `FLAG = 4`, corresponding to transcripts that did not map to the peanut reference genome.
 
