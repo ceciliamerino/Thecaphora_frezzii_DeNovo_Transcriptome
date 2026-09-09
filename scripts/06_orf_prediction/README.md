@@ -10,7 +10,7 @@ Protein homology evidence was obtained through DIAMOND BLASTp searches against t
 
 DIAMOND BLASTp results were subsequently incorporated into `TransDecoder.Predict` using the `--retain_blastp_hits` option. The `--single_best_only` option was used to retain a single best-supported ORF per transcript.
 
-After ORF prediction, custom post-processing was used to retain non-redundant coding sequences by selecting isoforms encoding unique CDSs and prioritizing the longest representative sequence.
+After ORF prediction, custom post-processing was used to remove exact duplicate coding sequences, retaining a single representative for each unique CDS sequence.
 
 Predicted CDSs ≥5,000 nt were additionally inspected through DIAMOND BLASTp searches against the Swiss-Prot database to assess potential assembly artifacts.
 
@@ -28,7 +28,7 @@ The workflow produced the following principal output files:
 3. Candidate protein sequences were searched against the NCBI nr protein database using DIAMOND BLASTp, retaining one best target sequence per query.
 4. Homology-supported ORFs were selected with `TransDecoder.Predict`.
 5. A single best ORF was retained per transcript using `--single_best_only`.
-6. Non-redundant CDSs were curated by selecting unique CDS isoforms and prioritizing the longest representative sequence.
+6. Exact duplicate CDS sequences were removed, retaining a single representative for each unique CDS sequence.
 7. CDSs ≥5,000 nt were further checked against Swiss-Prot to assess potential assembly artifacts.
 
 ## Scripts
@@ -47,6 +47,9 @@ The workflow produced the following principal output files:
 
 - `02_make_S2_qspan_v6.sh`
   Generates the supplementary TSV table containing CDS and protein lengths, alignment metrics, query coverage, and PASS/CHECK/NO_HIT classifications.
+
+  - `Filtrado_archivo_cds.py`
+  Removes exact duplicate CDS sequences, retaining a single representative for each unique CDS sequence.
 
 ## Notes
 
