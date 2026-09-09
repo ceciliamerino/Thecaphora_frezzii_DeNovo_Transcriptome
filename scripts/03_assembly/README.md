@@ -2,8 +2,8 @@
 
 Transcriptome assemblies were generated in Galaxy using:
 
-- Trinity
-- rnaSPAdes
+Trinity v2.15.1, using strand-specific paired-end reads (FR), with in silico read normalization and Jaccard Clip enabled.
+rnaSPAdes v3.15.5, using default parameters.
 
 The resulting FASTA files were downloaded and concatenated locally using the Bash cat command. The concatenated transcriptome was subsequently curated using EvidentialGene.
 
