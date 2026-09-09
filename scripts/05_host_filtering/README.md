@@ -17,6 +17,7 @@ subread-align \
   -t 1 \
   -o <output_file> \
   -T 10
+```
 
 The procedure was repeated independently for the Tifrunner, Shitouqi, Fuhuasheng, and BaileyII reference genomes.
 
