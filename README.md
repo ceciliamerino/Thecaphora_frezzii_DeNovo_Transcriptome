@@ -29,8 +29,21 @@ results/
 
 ## Software
 
-The workflow was implemented using BBTools, fastp, Trinity, rnaSPAdes, EvidentialGene, BUSCO, rnaQUAST, TransDecoder, DIAMOND, samtools, Python and standard Unix command-line utilities including wget, gunzip, unzip and pigz.
+The workflow was implemented using:
 
+- BBTools v39.01
+- fastp v0.23.2
+- Trinity v2.15.1
+- rnaSPAdes v3.15.5
+- EvidentialGene v2022.04.05
+- Subread v2.0.6
+- rnaQUAST v2.3.0
+- BUSCO v5.5.0 and v5.7.1
+- TransDecoder v5.7.1
+- DIAMOND v2.1.10 and v2.1.23
+- samtools
+- Python and standard Unix command-line utilities including wget, gunzip, unzip and pigz.
+  
 ## Citation
 
 Manuscript under review.
