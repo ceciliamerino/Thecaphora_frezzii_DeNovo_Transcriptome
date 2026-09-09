@@ -16,6 +16,7 @@ The fungal reads recovered by BBMap were concatenated with the reads initially a
 ```bash
 cat <initial_Tfrezii_R1.fastq.gz> <recovered_mapped_R1.fastq.gz> > concat_Tfrezii_final_C_1.fq.gz
 cat <initial_Tfrezii_R2.fastq.gz> <recovered_mapped_R2.fastq.gz> > concat_Tfrezii_final_C_2.fq.gz
+```
 
 ## Scripts
 
