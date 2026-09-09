@@ -7,11 +7,11 @@
    width="1121.3333"
    height="1700"
    viewBox="0 0 1121.3333 1700"
-   sodipodi:docname="Figure1_technical_github_24junio2026.svg"
+   sodipodi:docname="pipeline.svg"
    inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
-   inkscape:export-filename="Figure1_technical_github_24junio2026.tiff"
-   inkscape:export-xdpi="600"
-   inkscape:export-ydpi="600"
+   inkscape:export-filename="pipeline.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -71,9 +71,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.1177041"
-     inkscape:cx="4.0261103"
-     inkscape:cy="845.03582"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="602.45498"
+     inkscape:cy="811.05148"
      inkscape:window-width="2560"
      inkscape:window-height="1494"
      inkscape:window-x="-11"
@@ -333,33 +333,33 @@
     <text
        id="text51"
        xml:space="preserve"
-       x="531.2785"
+       x="530.21594"
        y="666.73383"
        style="font-size:11.3333px;fill:#383838;fill-opacity:1;stroke-width:2.60882"><tspan
          id="tspan51"
          style="font-variant:normal;font-weight:700;font-size:11.3333px;font-family:Arial;writing-mode:lr-tb;fill:#383838;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.60882"
-         x="531.2785"
+         x="530.21594"
          y="666.73383">Concatenate </tspan></text>
     <text
        id="text52"
        xml:space="preserve"
-       x="526.72418"
+       x="525.72241"
        y="679.23383"
        style="font-size:11.3333px;fill:#383838;fill-opacity:1;stroke-width:2.60882"><tspan
          id="tspan52"
          style="font-variant:normal;font-weight:700;font-size:11.3333px;font-family:Arial;writing-mode:lr-tb;fill:#383838;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.60882"
-         x="526.72418"
+         x="525.72241"
          y="679.23383">mapped reads </tspan></text>
     <text
        id="text52-5"
        xml:space="preserve"
-       x="507.64734"
+       x="518.52014"
        y="691.48413"
        style="font-size:11.3333px;display:inline;fill:#383838;fill-opacity:1;stroke-width:2.60882"><tspan
          id="tspan52-0"
          style="font-variant:normal;font-weight:700;font-size:11.3333px;font-family:Arial;writing-mode:lr-tb;fill:#383838;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.60882"
-         x="507.64734"
-         y="691.48413">(Custom Bash script)</tspan></text>
+         x="518.52014"
+         y="691.48413">(Bash command)</tspan></text>
     <text
        id="text53"
        xml:space="preserve"
@@ -394,36 +394,36 @@
            id="tspan45-3">Assemble transcripts  </tspan></tspan></text>
     <path
        id="path64"
-       d="m 476.39386,1173.0974 h 178.00382 c 7.02205,0 12.71447,2.8361 12.71447,6.3347 0,0 0,0 0,0 v 50.6776 c 0,3.4984 -5.69242,6.3346 -12.71447,6.3346 0,0 0,0 0,0 H 476.39386 c -7.02183,0 -12.71451,-2.8362 -12.71451,-6.3346 0,0 0,0 0,0 v -50.6776 c 0,-3.4986 5.69268,-6.3347 12.71451,-6.3347 z"
-       style="fill:none;stroke:#5c5c5c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+       d="m 439.67739,1176.957 h 252.06942 c 9.94383,0 18.00482,2.5472 18.00482,5.6894 0,0 0,0 0,0 v 45.5142 c 0,3.1421 -8.06099,5.6894 -18.00482,5.6894 0,0 0,0 0,0 H 439.67739 c -9.94352,0 -18.00487,-2.5473 -18.00487,-5.6894 0,0 0,0 0,0 v -45.5142 c 0,-3.1422 8.06135,-5.6894 18.00487,-5.6894 z"
+       style="fill:none;stroke:#5c5c5c;stroke-width:1.12775;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
     <text
        id="text64"
        xml:space="preserve"
-       x="506.72601"
+       x="462.3317"
        y="1196.6743"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.3333px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#383838;fill-opacity:1;stroke-width:2.60882"><tspan
          sodipodi:role="line"
          id="tspan15"
-         x="506.72601"
+         x="462.3317"
          y="1196.6743"><tspan
            id="tspan64"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.3333px;font-family:Arial;-inkscape-font-specification:'Arial Bold';writing-mode:lr-tb;fill:#383838;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.60882"
-           x="506.72601"
-           y="1196.6743">Filter host transcripts </tspan></tspan><tspan
+           x="462.3317"
+           y="1196.6743">Host-sequence screening and filtering </tspan></tspan><tspan
          sodipodi:role="line"
-         x="506.72601"
+         x="462.3317"
          y="1210.8409"
          id="tspan20" /></text>
     <text
        id="text64-2-2"
        xml:space="preserve"
-       x="477.70932"
+       x="425.44867"
        y="1218.3203"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.3333px;font-family:Arial;-inkscape-font-specification:'Arial Bold';display:inline;fill:#383838;fill-opacity:1;stroke-width:2.60882"><tspan
          id="tspan64-5-5"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.3333px;font-family:Arial;-inkscape-font-specification:'Arial Bold';writing-mode:lr-tb;fill:#383838;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.60882"
-         x="477.70932"
-         y="1218.3203">(BBMap + custom Python script)</tspan></text>
+         x="425.44867"
+         y="1218.3203">(Subread; BBMap + Custom Python filtering scripts)</tspan></text>
     <text
        id="text64-4"
        xml:space="preserve"
@@ -456,28 +456,28 @@
          y="638.77277" /></text>
     <path
        id="path66"
-       d="m 437.73265,1072.1866 h 260.00713 c 10.25701,0 18.57194,2.0488 18.57194,4.5762 0,0 0,0 0,0 v 36.6103 c 0,2.5274 -8.31493,4.5762 -18.57194,4.5762 0,0 0,0 0,0 H 437.73265 c -10.257,0 -18.57197,-2.0488 -18.57197,-4.5762 0,0 0,0 0,0 v -36.6103 c 0,-2.5274 8.31497,-4.5762 18.57197,-4.5762 z"
+       d="m 437.73265,1076.1866 h 260.00713 c 10.25701,0 18.57194,2.0488 18.57194,4.5762 0,0 0,0 0,0 v 36.6103 c 0,2.5274 -8.31493,4.5762 -18.57194,4.5762 0,0 0,0 0,0 H 437.73265 c -10.257,0 -18.57197,-2.0488 -18.57197,-4.5762 0,0 0,0 0,0 v -36.6103 c 0,-2.5274 8.31497,-4.5762 18.57197,-4.5762 z"
        style="fill:none;stroke:#5c5c5c;stroke-width:1.10349;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
     <text
        id="text66"
        xml:space="preserve"
        style="font-size:31.3058px;fill:#383838;fill-opacity:1;stroke-width:2.60882"
-       x="506.2608"
-       y="1088.8944"><tspan
+       x="462.51892"
+       y="1092.8944"><tspan
          id="tspan66"
          style="font-variant:normal;font-weight:700;font-size:11.044px;font-family:Arial;writing-mode:lr-tb;fill:#383838;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.60882"
-         x="506.2608"
-         y="1088.8944">Merge (EvidentialGene)</tspan></text>
+         x="462.51892"
+         y="1092.8944">Curation and Selection (EvidentialGene)</tspan></text>
     <text
        id="text66-6"
        xml:space="preserve"
        style="font-size:31.3058px;display:inline;fill:#383838;fill-opacity:1;stroke-width:2.60882"
        x="423.96469"
-       y="1105.3864"><tspan
+       y="1109.3864"><tspan
          id="tspan66-3"
          style="font-variant:normal;font-weight:700;font-size:11.044px;font-family:Arial;writing-mode:lr-tb;fill:#383838;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.60882"
          x="423.96469"
-         y="1105.3864"><tspan
+         y="1109.3864"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
            id="tspan112998">(redundancy removal / representative transcripts selection)</tspan></tspan></text>
     <path
@@ -523,13 +523,13 @@
     <text
        id="text69-1"
        xml:space="preserve"
-       x="488.02713"
-       y="1009.7249"
+       x="489.42358"
+       y="1005.7249"
        style="font-size:31.3058px;display:inline;fill:#383838;fill-opacity:1;stroke-width:2.60882"><tspan
          id="tspan69-0"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.044px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;fill:#383838;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.60882"
-         x="488.02713"
-         y="1009.7249">(Trinity+rnaSPAdes FASTA files)</tspan></text>
+         x="489.42358"
+         y="1005.7249">(Trinity+rnaSPAdes FASTA files)</tspan></text>
     <text
        id="text69-7"
        xml:space="preserve"
@@ -657,18 +657,18 @@
          y="1323.3978" /></text>
     <path
        id="path66-8"
-       d="m 484.81521,980.5506 h 165.42378 c 6.52579,0 11.81599,1.7853 11.81599,3.9877 0,0 0,0 0,0 v 31.9009 c 0,2.2022 -5.2902,3.9876 -11.81599,3.9876 0,0 0,0 0,0 H 484.81521 c -6.52578,0 -11.81597,-1.7854 -11.81597,-3.9876 0,0 0,0 0,0 v -31.9009 c 0,-2.2024 5.29019,-3.9877 11.81597,-3.9877 z"
-       style="display:inline;fill:none;stroke:#5c5c5c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+       d="m 485.81276,977.1266 h 165.3266 c 6.52196,0 11.80905,2.20519 11.80905,4.92558 0,0 0,0 0,0 v 39.40382 c 0,2.7202 -5.28709,4.9254 -11.80905,4.9254 0,0 0,0 0,0 h -165.3266 c -6.52195,0 -11.80903,-2.2052 -11.80903,-4.9254 0,0 0,0 0,0 v -39.40382 c 0,-2.72039 5.28708,-4.92558 11.80903,-4.92558 z"
+       style="display:inline;fill:none;stroke:#5c5c5c;stroke-width:1.11106;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
     <text
        id="text66-1"
        xml:space="preserve"
        style="font-size:31.3058px;display:inline;fill:#383838;fill-opacity:1;stroke-width:2.60882"
-       x="503.07501"
-       y="996.38672"><tspan
+       x="504.02936"
+       y="992.38672"><tspan
          id="tspan66-9"
          style="font-variant:normal;font-weight:700;font-size:11.044px;font-family:Arial;writing-mode:lr-tb;fill:#383838;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.60882"
-         x="503.07501"
-         y="996.38672">Concatenate assemblies</tspan></text>
+         x="504.02936"
+         y="992.38672">Concatenate assemblies</tspan></text>
     <text
        xml:space="preserve"
        id="text43"
@@ -765,7 +765,7 @@
     </g>
     <g
        id="g48-6-27-3"
-       transform="matrix(0.68765606,0,0,0.68765606,178.86303,568.77073)"
+       transform="matrix(0.68765606,0,0,0.68765606,178.86303,572.77073)"
        style="display:inline;stroke-width:1.45422">
       <path
          id="path47-6-0-7"
@@ -779,7 +779,7 @@
     </g>
     <g
        id="g48-6-27-3-9"
-       transform="matrix(0.68765606,0,0,0.68765606,178.95942,667.14914)"
+       transform="matrix(0.68765606,0,0,0.68765606,178.95942,671.14914)"
        style="display:inline;stroke-width:1.45422">
       <path
          id="path47-6-0-7-2"
@@ -919,5 +919,15 @@
          style="display:inline;fill:none;stroke:#5c5c5c;stroke-width:3.87985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
          sodipodi:nodetypes="cc" />
     </g>
+    <text
+       id="text52-5-8"
+       xml:space="preserve"
+       x="522.50372"
+       y="1018.0468"
+       style="font-size:11.3333px;display:inline;fill:#383838;fill-opacity:1;stroke-width:2.60882"><tspan
+         id="tspan52-0-2"
+         style="font-variant:normal;font-weight:700;font-size:11.3333px;font-family:Arial;writing-mode:lr-tb;fill:#383838;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.60882"
+         x="522.50372"
+         y="1018.0468">(Bash command)</tspan></text>
   </g>
 </svg>
