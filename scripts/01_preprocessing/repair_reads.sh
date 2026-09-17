@@ -13,7 +13,8 @@ echo
 echo "Processing $1"
 echo
 
-DIR=/media/danilo/Tera2/Analysis/CeciMerino/Analysis_pipeline/00_Fastp
+# Edit this path before running the script.
+DIR="/path/to/preprocessed_fastq_files"
 
 R1=$1
 R2=${R1/1.fastq.gz/2.fastq.gz}
